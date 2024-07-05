@@ -1,1 +1,1 @@
-[Нажмите здесь, чтобы перейти на Google](https://beezeshow.github.io/project/)
+[Нажмите здесь, чтобы перейти на хостинг](https://beezeshow.github.io/project/)
