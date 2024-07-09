@@ -71,6 +71,7 @@ body{
     background: url(./icons/highlight.svg);
     position: absolute;
     left: 0px;
+
 }
 .textarea {
     display: flex;
