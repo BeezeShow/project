@@ -4,29 +4,50 @@
         <meta charset="UTF-8">
         <title> мой сайт </title>
        <link rel="stylesheet" href="css.css">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-     <header class="header">
-        <img class="header__icons" src="/icons/burger.svg" alt="burger">
-        <img class="header__logo"src="/icons/Group.svg" alt="logo">
-        <img class="header__icons" src="/icons/divider.svg" alt="burger">
-        <img class="header__icons" src="/icons/checkstatus.svg" alt="checkout">
-        <img class="header__icons" src="/icons/repair.svg" alt="repair">
-     </header>
+     <!-- <header class="header">
+        <img class="header__icons" src="./icons/burger.svg" alt="burger">
+        <img class="header__logo"src="./icons/Group.svg" alt="logo">
+        <img class="header__icons" src="./icons/divider.svg" alt="burger">
+        <img class="header__icons" src="./icons/checkstatus.svg" alt="checkout">
+        <img class="header__icons" src="./icons/repair.svg" alt="repair">
+     </header> -->
+     <header class="header"> 
+      <!-- <a href="#" class="header__icons"><img src="./icons/burger.svg" alt="burger"></a>
+       <a href="#" class="header__logo"><img src="./icons/Group.svg" alt="logo"></a> 
+       <img src="./icons/divider.svg" alt="divider">
+       <a href="#" class="header__icons"><img src="./icons/checkstatus.svg" alt="checkout"></a> 
+       <a href="#" class="header__icons"><img src="./icons/repair.svg" alt="repair"></a>  -->
+       <a href="#" class="header__icons"><button><img src="./icons/burger.svg" alt="burger"></button></a> 
+       <a href="#" class="header__logo"><button><img src="./icons/Group.svg" alt="logo"></button></a> 
+       <img src="./icons/divider.svg" alt="divider"> 
+       <a href="#" class="header__icons"><button><img src="./icons/checkstatus.svg" alt="checkout"></button></a> 
+       <a href="#" class="header__icons"><button><img src="./icons/repair.svg" alt="repair"></button></a>
+   </header>
      
      <h1 class="textarea">
         <img src="icons/highlight.svg" alt="highlight">
        <span class="textarea__services"> Услуги и сервисы</span>
     </h1>
-     <div class="items">
-      <div class="items__element">Ремонтируемые устройства</div>
-        <div class="items__element">Ремонтируемые бренды</div>
-        
-        <div class="items__element">Цены на услуги</div>
-        <div class="items__element">Адреса сервисных центров</div>
-        <div class="items__element">Специальные цены</div>
-        <div class="items__element">Отзывы</div>
-     </div>
+     <!-- <div class="items">
+      <div class="items__element"><a href="#">Ремонтируемые устройства</a></div>
+        <div class="items__element items__element--active"><a href="#">Ремонтируемые бренды</a></div> 
+        <div class="items__element items__element--active"><a href="#">Цены на услуги</a></div> 
+        <div class="items__element items__element--active"><a href="#">Адреса сервисных центров</a></div> 
+        <div class="items__element items__element--active"><a href="#">Специальные цены</a></div> 
+        <div class="items__element items__element--active"><a href="#">Отзывы</a></div>
+     </div> -->
+     <nav class="items"> 
+      <ul> 
+         <li class="items__element items__element--active"><a href="#">Ремонтируемые устройства</a></li> 
+         <li class="items__element items__element--active"><a href="#">Ремонтируемые бренды</a></li> 
+         <li class="items__element items__element--active"><a href="#">Цены на услуги</a></li> 
+         <li class="items__element items__element--active"><a href="#">Адреса сервисных центров</a></li> 
+         <li class="items__element items__element--active"><a href="#">Специальные цены</a></li> 
+         <li class="items__element items__element--active"><a href="#">Отзывы</a></li> </ul> 
+      </nav>
      <p class="text"> Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
      <button class="button">
         <img class="button__img" src="/icons/expand.svg" alt="">

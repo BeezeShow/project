@@ -1,13 +1,34 @@
 @font-face {
     font-family: 'TTLakes';
-    src: url('fonts/TTLakes/TTLakes-BoldItalic.ttf');
+    src: url('./fonts/TTLakes/TTLakes-BoldItalic.ttf');
     font-weight: 600;
 }
 @font-face {
     font-family: 'TTLakes';
-    src: url('/fonts/TTLakes/TTLakes-Light.ttf');
+    src: url('./fonts/TTLakes/TTLakes-Light.ttf');
     font-weight: 400;
 }
+ul{
+    display: flex;
+    margin: 0;
+    height: 40px;
+    padding-left: 5px;
+
+}
+button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    outline: none;
+    
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 400;
+  }
 body{
     width: 320px;
     height: 597px;
@@ -31,6 +52,10 @@ body{
     width: 96.55px;
     height: 50.81px;
 }
+/* .header__logo::after{
+ content: (<img src="./icons/divider.svg" alt="divider">);
+
+} */
 .header__divider{
     width: 2px;
     height: 32px; 
@@ -61,24 +86,24 @@ font-size: 28px;
 .items {
     display: flex;
     height: 40px;
-    overflow-x: auto;
+    overflow-x: scroll;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
     margin: 0px 0px 20px 10px;
-    padding-left: 5px;
-    padding-right: 5px;
     align-items: center;
     gap: 10px;
 }
 .items::-webkit-scrollbar {
     display: none;
 }
-.items__element:first-child{
-    background-color: white;
-    border: 2px solid #B8FFEC;
+.items__element--active:hover, .items__element--active:active{
+ background-color: white;
+ border: 2px solid #B8FFEC;
 height: 36px;
 text-align: center;
 border-radius: 10px;
+
+
 
 
 }
@@ -88,6 +113,7 @@ border-radius: 10px;
     font-size: 16px;
     display: flex;
     align-items: center;
+    color: rgb(0, 0, 0);
     
 
 }
