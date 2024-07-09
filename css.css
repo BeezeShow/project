@@ -51,32 +51,38 @@ body{
 .header__logo{
     width: 96.55px;
     height: 50.81px;
+    
 }
 .header__logo ::after { 
     content: ""; 
-    display: flex; 
+    display: inline; 
     width: 2px; 
     height: 32px;
-    background: url(./icons/divider.svg);  
+    background: url(./icons/divider.svg); 
+    position: absolute; 
+    top: 31px;
+    left: 186px;
 }
 .textarea__services::before{
     content: ""; 
-    display: flex; 
+    display: inline; 
     width: 2px; 
     height: 40px;
     background: url(./icons/highlight.svg);
-
+    position: absolute;
+    left: 0px;
 }
 .textarea {
     display: flex;
     width: 304px;
-height: 40px;
-font-weight: 600;
-align-self: center;
-font-size: 28px;
+    height: 40px;
+    font-weight: 600;
+    align-self: center;
+    font-size: 28px;
+    margin-left: 10px;
 }
 .textarea__services{
-    margin-left: 6px;
+    margin-left: 0px;
     margin-right: 6px;
     margin-bottom: 0px;
 }
