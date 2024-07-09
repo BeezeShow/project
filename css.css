@@ -52,13 +52,17 @@ body{
     width: 96.55px;
     height: 50.81px;
 }
-/* .header__logo::after{
- content: (<img src="./icons/divider.svg" alt="divider">);
+.header__logo button::after { 
+    content: ""; 
+    display: flex; 
+    width: 2px; 
+    height: 32px;
+    background: url(./icons/divider.svg);  
+    align-items: center;
+}
 
-} */
 .header__divider{
-    width: 2px;
-    height: 32px; 
+   display: none; 
 }
 
 .header__logo::after{
@@ -102,10 +106,6 @@ font-size: 28px;
 height: 36px;
 text-align: center;
 border-radius: 10px;
-
-
-
-
 }
 .items__element {
     min-width: 236px;
