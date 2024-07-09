@@ -30,7 +30,7 @@ a {
     font-weight: 400;
   }
 body{
-    width: 320px;
+    width: 768px;
     height: 597px;
     font-family: "TTLakes";
     margin: 0px;
@@ -52,24 +52,21 @@ body{
     width: 96.55px;
     height: 50.81px;
 }
-.header__logo ::after { 
+.header__logo::after { 
     content: ""; 
     display: flex; 
     width: 2px; 
     height: 32px;
     background: url(./icons/divider.svg);  
+    align-items: center;
 }
-.textarea__services::before{
-    content: ""; 
-    display: flex; 
-    width: 2px; 
-    height: 40px;
-    background: url(./icons/highlight.svg);
 
+.header__divider{
+   display: none; 
 }
 .textarea {
     display: flex;
-    width: 304px;
+    width: 257px;
 height: 40px;
 font-weight: 600;
 align-self: center;
